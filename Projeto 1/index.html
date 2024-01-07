@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Game Shop</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1>Game Shop</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#about">Sobre a loja</a>
+            </li>
+            <li>
+              <a href="#contact">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <img src="img/loja.jpg" alt="Fachada da Loja" />
+        <div class="sobre-txt">
+          <h2>Sobre a loja</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem
+            adipisci aut, dolorum sequi repudiandae veniam est cupiditate
+            tempora? Voluptatum voluptate repellat aperiam cupiditate quisquam
+            fuga, quam veritatis voluptates dolorem.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consectetur facere similique quos, corrupti natus nihil quibusdam
+            odit placeat molestiae iusto amet esse, quaerat saepe dicta,
+            corporis quod ipsam commodi excepturi.
+          </p>
+          <ul class="logos">
+            <li><img src="img/nintendo.png" alt="Logo da Nintendo" /></li>
+            <li><img src="img/xbox.png" alt="Logo do XBOX" /></li>
+            <li><img src="img/playstation.png" alt="Logo do Playstation" /></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <div class="contact-methods">
+          <div>
+            <h3>Fale conosco</h3>
+            <form>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Seu nome"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu email"
+                required
+              />
+              <input
+                type="tel"
+                name="telefone"
+                id="telefone"
+                placeholder="Seu telefone (opicional)"
+              />
+              <textarea
+                name="mensagem"
+                id="mensagem"
+                placeholder="Sua mensagem"
+                required
+              ></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <div>
+            <h3>Nos acompanhe</h3>
+            <ul class="social-links">
+              <li>
+                <a href="#contact" title="Siga-nos no Instagram"
+                  ><img src="img/instagram.png" alt="Logo do Instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#contact" title="Siga-nos no Facebook"
+                  ><img src="img/facebook.png" alt="Logo do Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#contact" title="Siga-nos no Youtube"
+                  ><img src="img/youtube.png" alt="Logo do Youtube"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Venha até nós</h3>
+            <p>Rua Java, nº 102, Vila NODE - Vila Velha - ES</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Game Shop - todos direitos reservados - 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
