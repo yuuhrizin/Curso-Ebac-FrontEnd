@@ -9,3 +9,4 @@
 - PROJETO 1 (HTML e CSS) - (BRANCH: main)
 - EXERCÍCIO DE JavaScript
 - PROJETO 2 (HTML, CSS e JS) - (BRANCH: main)
+- EXERCÍCIO DE jQuery
