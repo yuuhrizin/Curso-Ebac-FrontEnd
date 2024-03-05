@@ -4,7 +4,7 @@ namespace atividade {
     }
     
     function olaNome(nome: string): string {
-        return `Olá ${nome}`
+        return `Olá, ${nome}!`
     }
     
     console.log(multiplicacao(10, 20))
